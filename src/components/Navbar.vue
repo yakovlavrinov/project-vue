@@ -6,6 +6,8 @@
       <router-link to="/about">О нас</router-link> -->
       <my-button @click="$router.push('/posts')">Посты</my-button>
       <my-button @click="$router.push('/about')">О нас</my-button>
+      <my-button @click="$router.push('/store')">Стор</my-button>
+      <my-button @click="$router.push('/composition')">Композишн</my-button>
     </div>
   </div>
 </template>
